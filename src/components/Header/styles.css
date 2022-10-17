@@ -1,0 +1,38 @@
+header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 15px solid #FF6953;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+.visitante{
+    cursor: pointer;
+    margin-left: 20px;
+    color: #FF6953;
+}
+.visitante:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(49, 58, 77);
+    padding: 40px;
+    gap: 50px;
+}
+
+p{
+    font-size: 0.80rem;
+    color: seashell;
+}
+h3{
+    color: seashell;
+}
+
+.textoResponsavel{
+    margin-left: 10px;
+}
+.descricaoResponsavel{
+    display: flex;
+    flex-direction: row;
+}
